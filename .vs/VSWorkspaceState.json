@@ -1,0 +1,16 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\01_stack_queue",
+    "\\src\\02_array_pointer"
+  ],
+  "SelectedNode": "\\src\\02_array_pointer\\001_two_sum.cpp",
+  "PreviewInSolutionExplorer": false
+}

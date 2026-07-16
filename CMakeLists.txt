@@ -12,5 +12,6 @@ else()
     add_compile_options(-Wall -Wextra -Wpedantic -O2)
 endif()
 
-# 编译 #20 题可执行文件
-add_executable(020_valid_parentheses src/01_stack_queue/020_valid_parentheses.cpp)
+# 编译可执行文件
+add_executable(026_remove_duplicates src/02_array_pointer/026_remove_duplicates.cpp)
+add_executable(001_two_sum src/02_array_pointer/001_two_sum.cpp)
