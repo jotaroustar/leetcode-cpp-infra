@@ -1,20 +1,30 @@
-# Pruning compiler outputs
+# 原本的编译器过滤
 *.o
 *.out
 *.exe
 *.a
 *.so
 
-# CMake build directories
+# 原本的 CMake 过滤
 /build/
 /CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 
-# IDE specific files
+# 原本的 IDE 过滤
 /.idea/
 /.vscode/
 *.user
 *.suo
 *.clcpp
+
+# 过滤 Visual Studio 临时缓存
+.vs/
+*.user
+*.suo
+*.db
+
+# 过滤 CMake 编译输出文件夹（所有的 exe 和 pdb 都在这里面）
+out/
+build/
