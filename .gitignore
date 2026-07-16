@@ -1,0 +1,20 @@
+# Pruning compiler outputs
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# CMake build directories
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE specific files
+/.idea/
+/.vscode/
+*.user
+*.suo
+*.clcpp
