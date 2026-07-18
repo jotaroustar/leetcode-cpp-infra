@@ -28,3 +28,12 @@ Makefile
 # 过滤 CMake 编译输出文件夹（所有的 exe 和 pdb 都在这里面）
 out/
 build/
+# 过滤任何层级下的 .vs 隐藏文件夹
+**/.vs/
+.vs/
+
+# 过滤编译产生的数据库与临时布局文件
+*.VC.db
+*.slnx.sqlite
+*DocumentLayout*.json
+*VSWorkspaceState.json

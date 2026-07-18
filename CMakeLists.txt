@@ -15,3 +15,4 @@ endif()
 # 编译可执行文件
 add_executable(026_remove_duplicates src/02_array_pointer/026_remove_duplicates.cpp)
 add_executable(001_two_sum src/02_array_pointer/001_two_sum.cpp)
+add_executable(027_remove_element src/02_array_pointer/027_remove_element.cpp)
