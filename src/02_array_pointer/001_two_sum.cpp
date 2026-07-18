@@ -39,6 +39,8 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <sstream> 
+#include <string>
 
 class Solution {
 public:
@@ -46,24 +48,17 @@ public:
         // key: 数值, value: 对应的数组下标
         std::unordered_map<int, int> num_to_index;
 
-        // 工程优化提示：如果已知 nums 的尺寸，可以在此处调用 reserve 预控哈希抖动
-        // num_to_index.reserve(nums.size());
-
         for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
 
-            // 在哈希表中查找我们需要的那个“另一半”
             auto it = num_to_index.find(complement);
             if (it != num_to_index.end()) {
-                // 找到了，返回配对的两个下标（零拷贝构造）
                 return { it->second, i };
             }
 
-            // 没找到，把当前的数值和下标存进去
             num_to_index[nums[i]] = i;
         }
 
-        // 若无解则返回空字典（题目边界保证必有唯一解）
         return {};
     }
 };
@@ -74,20 +69,29 @@ public:
 int main() {
     Solution solver;
 
-    std::vector<int> nums = { 2, 7, 11, 15 };
-    int target = 9;
+    int target = 0;
+    std::cout << "请输入目标值 target: ";
+    std::cin >> target;
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-    std::cout << "Original vector size: " << nums.size() << std::endl;
-    std::cout << "Target value sum: " << target << std::endl;
+    std::cout << "请输入数组元素（空格隔开，按回车结束）: ";
+    std::string line;
+    std::getline(std::cin, line);
+
+    std::vector<int> nums;
+    std::stringstream ss(line);
+    int num;
+    while (ss >> num) {
+        nums.push_back(num);
+    }
 
     std::vector<int> result = solver.twoSum(nums, target);
 
     if (result.size() == 2) {
-        std::cout << "Successfully found indices: [" << result[0] << ", " << result[1] << "]" << std::endl;
-        std::cout << "Physical memory verification: " << nums[result[0]] << " + " << nums[result[1]] << " == " << target << std::endl;
+        std::cout << "[" << result[0] << ", " << result[1] << "]" << std::endl;
     }
     else {
-        std::cout << "Error: No valid pair found." << std::endl;
+        std::cout << "[]" << std::endl;
     }
 
     return 0;

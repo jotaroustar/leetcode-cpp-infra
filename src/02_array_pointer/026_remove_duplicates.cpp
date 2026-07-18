@@ -36,6 +36,8 @@
 
 #include <iostream>
 #include <vector>
+#include <sstream>
+#include <string>
 
 class Solution {
 public:
@@ -47,10 +49,9 @@ public:
         int slow = 0;
 
         for (int fast = 1; fast < nums.size(); ++fast) {
-            // 当快指针遇到了一个与慢指针不同的新元素
             if (nums[fast] != nums[slow]) {
                 slow++;
-                nums[slow] = nums[fast]; // 原地覆盖写入
+                nums[slow] = nums[fast];
             }
         }
 
@@ -63,18 +64,27 @@ public:
 // ==========================================
 int main() {
     Solution solver;
-    std::vector<int> test_case = {1, 1, 2, 2, 3};
-    
-    std::cout << "Original array size: " << test_case.size() << std::endl;
+
+    std::cout << "请输入有序数组（空格隔开，按回车结束）: ";
+    std::string line;
+    std::getline(std::cin, line);
+
+    std::vector<int> test_case;
+    std::stringstream ss(line);
+    int num;
+    while (ss >> num) {
+        test_case.push_back(num);
+    }
+
     
     int new_length = solver.removeDuplicates(test_case);
+
     
-    std::cout << "New length after deduplication: " << new_length << std::endl;
-    std::cout << "Modified array prefix: ";
+    std::cout << new_length << std::endl;
     for (int i = 0; i < new_length; ++i) {
         std::cout << test_case[i] << " ";
     }
     std::cout << std::endl;
-    
+
     return 0;
 }

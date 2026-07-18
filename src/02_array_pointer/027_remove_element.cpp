@@ -41,7 +41,8 @@
 
 #include <iostream>
 #include <vector>
-
+#include <sstream>
+#include <string>
 class Solution {
 public:
     int removeElement(std::vector<int>& nums, int val) {
@@ -65,15 +66,29 @@ public:
 // ==========================================
 int main() {
     Solution solver;
-    std::vector<int> test_case = { 0, 1, 2, 2, 3, 0, 4, 2 };
-    int target_val = 2;
 
-    std::cout << "Original array size: " << test_case.size() << std::endl;
+    int target_val = 0;
+    std::cout << "请输入要移除的目标值 target_val: ";
+    std::cin >> target_val;
+
+    // 清除输入缓冲区的换行符，确保后面能正常读取整行
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+    std::cout << "请输入数组元素（空格隔开，按回车结束）: ";
+    std::string line;
+    std::getline(std::cin, line);
+
+    // 解析输入的动态数组
+    std::vector<int> test_case;
+    std::stringstream ss(line);
+    int num;
+    while (ss >> num) {
+        test_case.push_back(num);
+    }
 
     int new_length = solver.removeElement(test_case, target_val);
 
-    std::cout << "New length after removing element: " << new_length << std::endl;
-    std::cout << "Modified array prefix: ";
+    std::cout << new_length << std::endl;
     for (int i = 0; i < new_length; ++i) {
         std::cout << test_case[i] << " ";
     }
