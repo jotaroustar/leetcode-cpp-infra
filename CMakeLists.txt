@@ -18,13 +18,14 @@ set(LEETCODE_TARGETS
     "026_remove_duplicates"
     "027_remove_element"
     "088_merge_sorted_array"
+    "167_two_sum_ii"
 )
 
 foreach(TARGET_NAME ${LEETCODE_TARGETS})
     set(SRC_FILE "${ARRAY_POINTER_DIR}/${TARGET_NAME}.cpp")
     
     if(EXISTS ${SRC_FILE})
-        add_executable(${TARGET_NAME} ${SRC_FILE})
+        add_executable(${TARGET_NAME} ${SRC_FILE} "src/02_array_pointer/167_two_sum_ii.cpp")
         message(STATUS "  [Infra Build] 已成功拦截并挂载可执行靶点: ${TARGET_NAME}")
     else()
         message(AUTHOR_WARNING "  [Infra Build Warning] 未找到目标源文件: ${SRC_FILE}，跳过挂载。")
