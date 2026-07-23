@@ -84,10 +84,8 @@ int main() {
     std::cout << "请输入 nums2 的有效元素数量 n: ";
     std::cin >> n;
 
-    // 清除输入缓冲区的换行符，防止污染后续 getline
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-    // 1. 流式解析 nums1 有效元素
     std::cout << "请输入 nums1 的 " << m << " 个有效元素（空格隔开）: ";
     std::string line1;
     std::getline(std::cin, line1);

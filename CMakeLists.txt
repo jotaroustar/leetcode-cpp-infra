@@ -25,7 +25,7 @@ foreach(CPP_FILE ${ALL_CPP_FILES})
     get_filename_component(TARGET_NAME ${CPP_FILE} NAME_WE)
 
     # 3. 每一个 cpp 文件单独生成一个独立的 exe 目标，彻底解决 main() 重定义冲突！
-    add_executable(${TARGET_NAME} ${CPP_FILE})
+    add_executable(${TARGET_NAME} ${CPP_FILE} "src/01_stack_queue/155_min_stack.cpp")
 
     message(STATUS "[Infra Build] 成功挂载独立可执行靶点: ${TARGET_NAME}")
 endforeach()

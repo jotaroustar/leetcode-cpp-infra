@@ -66,8 +66,6 @@ public:
 // ==========================================
 int main() {
     Solution solver;
-
-    std::cout << "===== LeetCode 020 Valid Parentheses ±¾µØ²âÊÔ =====\n";
     std::cout << "ÇëÊäÈë´ý²âÊÔµÄÀ¨ºÅ×Ö·û´®£¨ÀýÈç ()[]{} »ò ([)] £©: ";
 
     std::string input;

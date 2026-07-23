@@ -49,14 +49,12 @@ public:
         int slow = 0;
 
         for (int fast = 0; fast < nums.size(); ++fast) {
-            // 当快指针扫描到不需要被移除的元素时
             if (nums[fast] != val) {
-                nums[slow] = nums[fast]; // 原地覆盖写入
+                nums[slow] = nums[fast];
                 slow++;
             }
         }
 
-        // slow 的值恰好就是新数组的长度
         return slow;
     }
 };
