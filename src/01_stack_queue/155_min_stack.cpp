@@ -35,11 +35,7 @@ private:
     std::vector<std::pair<int, int>> st;
 
 public:
-    MinStack() {
-        // 解除 C/C++ 流同步，优化本地/测试平台性能
-        std::ios::sync_with_stdio(false);
-        std::cin.tie(nullptr);
-    }
+    MinStack() {}
 
     void push(int value) {
         if (st.empty()) {
