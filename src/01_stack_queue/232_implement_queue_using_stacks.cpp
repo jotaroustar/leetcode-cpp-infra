@@ -83,17 +83,17 @@ int main() {
         return 0;
     }
 
-    std::cout << "输出当前队头 (peek): " << myQueue.peek() << std::endl;
+    std::cout << "\n--- 开始连续出队测试 (直到队列清空) ---" << std::endl;
 
-    int popped = myQueue.pop();
-    std::cout << "已执行 1 次出队操作 (pop: " << popped << ")。" << std::endl;
+    while (!myQueue.empty()) {
+        std::cout << "当前队头 (peek): " << myQueue.peek();
+        int popped = myQueue.pop();
+        std::cout << " | 执行出队 (pop): " << popped << std::endl;
+    }
 
-    if (!myQueue.empty()) {
-        std::cout << "输出当前队头 (peek): " << myQueue.peek() << std::endl;
-    }
-    else {
-        std::cout << "提示: 执行出队后，队列已清空。" << std::endl;
-    }
+    std::cout << "------------------------------------------" << std::endl;
+    std::cout << "测试完成！当前队列 empty() 状态: "
+        << (myQueue.empty() ? "true (已清空)" : "false (异常)") << std::endl;
 
     return 0;
 }
