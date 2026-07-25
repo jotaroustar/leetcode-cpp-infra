@@ -19,7 +19,7 @@ foreach(CPP_FILE ${ALL_CPP_FILES})
   
     get_filename_component(TARGET_NAME ${CPP_FILE} NAME_WE)
 
-    add_executable(${TARGET_NAME} ${CPP_FILE})
+    add_executable(${TARGET_NAME} ${CPP_FILE} "src/01_stack_queue/225_implement_stack_using_queues.cpp")
 
     message(STATUS "[Infra Build] 成功挂载独立可执行靶点: ${TARGET_NAME}")
 endforeach()

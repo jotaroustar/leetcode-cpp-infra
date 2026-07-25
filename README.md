@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-- **累计完成**：9 题
+- **累计完成**：10 题
 - **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 - **编程语言**：C++ (C++17 标准)
 
@@ -20,4 +20,5 @@
 | 088 | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | Easy | 逆向双指针（Tail Pointer, Zero-Copy） | 07-19 | Pass |
 | 155 | [最小栈](https://leetcode.cn/problems/min-stack/) | Medium | 状态增强单栈（State-Augmented Single Stack, Cache Friendly） | 07-23 | Pass |
 | 167 | [两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | Medium | 对撞双指针（Opposite Collision, O(1) Space） | 07-20 | Pass |
+| 225 | [用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/) | Easy | 单队列环形旋转（Single-Queue Ring Rotation, Cache Friendly） | 07-25 | Pass |
 | 232 | [用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/) | Easy | 双栈模拟（Dual-Stack, Amortized O(1) Time） | 07-24 | Pass |
