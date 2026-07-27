@@ -32,11 +32,10 @@ class Solution {
 public:
     std::vector<int> dailyTemperatures(const std::vector<int>& temperatures) {
         const size_t n = temperatures.size();
-        std::vector<int> answer(n, 0); // 预分配连续内存空间
-        std::stack<int> st;            // 存储索引，维持 temperatures[st.top()] 的单调递减特性
+        std::vector<int> answer(n, 0); 
+        std::stack<int> st;           
 
         for (int i = 0; i < static_cast<int>(n); ++i) {
-            // 当发现更高温度时，解算并弹出所有低于当前温度的栈顶索引
             while (!st.empty() && temperatures[i] > temperatures[st.top()]) {
                 int prevIdx = st.top();
                 st.pop();
