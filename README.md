@@ -4,14 +4,14 @@
 
 ## 详细资料
 
-- **累计完成**：10 题
-- **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
-- **编程语言**：C++ (C++17 标准)
+* **累计完成**：12 题
+* **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
+* **编程语言**：C++ (C++17 标准)
 
 ---
 
 | 题号 | 题目 | 难易度 | 解法 / 核心机制 | 提交日期 | 状态 |
-| :---: | :--- | :---: | :--- | :---: | :---: |
+| --- | --- | --- | --- | --- | --- |
 | 001 | [两数之和](https://leetcode.cn/problems/two-sum/) | Easy | 哈希表（Single-pass Hash Map） | 07-17 | Pass |
 | 011 | [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) | Medium | 对撞双指针（Min Height Shrink, Spatial Pruning） | 07-21 | Pass |
 | 020 | [有效的括号](https://leetcode.cn/problems/valid-parentheses/) | Easy | 辅助栈（Stack Matching / ASCII Direct Mapping） | 07-22 | Pass |
@@ -22,3 +22,5 @@
 | 167 | [两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | Medium | 对撞双指针（Opposite Collision, O(1) Space） | 07-20 | Pass |
 | 225 | [用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/) | Easy | 单队列环形旋转（Single-Queue Ring Rotation, Cache Friendly） | 07-25 | Pass |
 | 232 | [用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/) | Easy | 双栈模拟（Dual-Stack, Amortized O(1) Time） | 07-24 | Pass |
+| 503 | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) | Medium | 单调递减栈 + 虚拟双倍数组（Monotonic Decreasing Stack, Virtual Double-Length Array） | 07-28 | Pass |
+| 739 | [每日温度](https://leetcode.cn/problems/daily-temperatures/) | Medium | 单调递减栈（Monotonic Decreasing Stack, Cache Friendly） | 07-27 | Pass |
