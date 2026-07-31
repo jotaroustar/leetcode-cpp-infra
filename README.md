@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：14 题
+* **累计完成**：15 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -26,3 +26,4 @@
 | 496 | [下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) | Easy | 单调递减栈 + 哈希表预处理（Monotonic Stack, Hash Map Preprocessing） | 07-30 | Pass |
 | 503 | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) | Medium | 单调递减栈 + 虚拟双倍数组（Monotonic Decreasing Stack, Virtual Double-Length Array） | 07-28 | Pass |
 | 739 | [每日温度](https://leetcode.cn/problems/daily-temperatures/) | Medium | 单调递减栈（Monotonic Decreasing Stack, Cache Friendly） | 07-27 | Pass |
+| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/) | Easy | 隐式字符串栈（In-Place String Stack Engine, Zero-Allocation） | 07-31 | Pass |
