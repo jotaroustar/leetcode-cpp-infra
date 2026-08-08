@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：22 题
+* **累计完成**：23 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -27,6 +27,7 @@
 | 225 | [用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/) | Easy | 单队列环形旋转（Single-Queue Ring Rotation, Cache Friendly） | 07-25 | Pass |
 | 232 | [用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/) | Easy | 双栈模拟（Dual-Stack, Amortized O(1) Time） | 07-24 | Pass |
 | 239 | [滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/) | Hard | 单调双端队列（Monotonic Deque Engine, Zero-Allocation Output） | 08-02 | Pass |
+| 424 | [替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement/) | Medium | 滑动窗口 + 历史最高频次单调不降（Monotonic Max Frequency, Zero-Allocation） | 08-08 | Pass |
 | 438 | [找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/) | Medium | 定长滑动窗口 + 栈上固定频次表（Fixed-Size Window, Zero-Allocation Vectorization） | 08-05 | Pass |
 | 496 | [下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) | Easy | 单调递减栈 + 哈希表预处理（Monotonic Stack, Hash Map Preprocessing） | 07-30 | Pass |
 | 503 | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) | Medium | 单调递减栈 + 虚拟双倍数组（Monotonic Decreasing Stack, Virtual Double-Length Array） | 07-28 | Pass |
