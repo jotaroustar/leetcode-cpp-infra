@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：24 题
+* **累计完成**：25 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -32,6 +32,7 @@
 | 496 | [下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) | Easy | 单调递减栈 + 哈希表预处理（Monotonic Stack, Hash Map Preprocessing） | 07-30 | Pass |
 | 503 | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) | Medium | 单调递减栈 + 虚拟双倍数组（Monotonic Decreasing Stack, Virtual Double-Length Array） | 07-28 | Pass |
 | 567 | [字符串的排列](https://leetcode.cn/problems/permutation-in-string/) | Medium | 定长滑动窗口 + 栈上固定频次表（Fixed-Size Window, Zero-Allocation Vectorization） | 08-09 | Pass |
+| 704 | [二分查找](https://leetcode.cn/problems/binary-search/) | Easy | 标准双闭区间二分查找（Standard Closed Interval Binary Search） | 08-10 | Pass |
 | 739 | [每日温度](https://leetcode.cn/problems/daily-temperatures/) | Medium | 单调递减栈（Monotonic Decreasing Stack, Cache Friendly） | 07-27 | Pass |
 | 904 | [水果成篮](https://leetcode.cn/problems/fruit-into-baskets/) | Medium | 变长滑动窗口（At Most K Distinct Types, Bounded Map Footprint） | 08-07 | Pass |
 | 1004 | [最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/) | Medium | 变长滑动窗口（Tolerance Budget Mechanism, Zero-Allocation） | 08-06 | Pass |
