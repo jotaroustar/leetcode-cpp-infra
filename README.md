@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：27 题
+* **累计完成**：28 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -18,6 +18,7 @@
 | 020 | [有效的括号](https://leetcode.cn/problems/valid-parentheses/) | Easy | 辅助栈（Stack Matching / ASCII Direct Mapping） | 07-22 | Pass |
 | 026 | [删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) | Easy | 同向双指针（Fast/Slow Pointer） | 07-16 | Pass |
 | 027 | [移除元素](https://leetcode.cn/problems/remove-element/) | Easy | 同向双指针（Fast/Slow Pointer） | 07-18 | Pass |
+| 033 | [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | Medium | 局部有序二分查找（Interval Monotonicity Discrimination） | 08-14 | Pass |
 | 034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | 双重二分边界收敛（Lower/Upper Bound Convergence, O(1) Space） | 08-13 | Pass |
 | 035 | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) | Easy | 二分查找边界收敛（Lower Bound Convergence） | 08-12 | Pass |
 | 084 | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | Hard | 单调递增栈 + 首尾双哨兵（Monotonic Increasing Stack, Double Sentinels） | 07-29 | Pass |
