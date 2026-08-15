@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：28 题
+* **累计完成**：29 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -24,6 +24,7 @@
 | 084 | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | Hard | 单调递增栈 + 首尾双哨兵（Monotonic Increasing Stack, Double Sentinels） | 07-29 | Pass |
 | 088 | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | Easy | 逆向双指针（Tail Pointer, Zero-Copy） | 07-19 | Pass |
 | 150 | [逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/) | Medium | 栈操作引擎 + 分支优化（Stack-Based Evaluation Engine, Branch-Friendly Dispatch） | 08-01 | Pass |
+| 153 | [寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | Medium | 右端点基准单调性收敛（Right-Bound Pivot Convergence） | 08-15 | Pass |
 | 155 | [最小栈](https://leetcode.cn/problems/min-stack/) | Medium | 状态增强单栈（State-Augmented Single Stack, Cache Friendly） | 07-23 | Pass |
 | 167 | [两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | Medium | 对撞双指针（Opposite Collision, O(1) Space） | 07-20 | Pass |
 | 209 | [长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/) | Medium | 变长滑动窗口（Aggressive Shrink Loop, Zero-Allocation） | 08-04 | Pass |
