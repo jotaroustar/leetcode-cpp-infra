@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：31 题
+* **累计完成**：32 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -40,6 +40,7 @@
 | 567 | [字符串的排列](https://leetcode.cn/problems/permutation-in-string/) | Medium | 定长滑动窗口 + 栈上固定频次表（Fixed-Size Window, Zero-Allocation Vectorization） | 08-09 | Pass |
 | 704 | [二分查找](https://leetcode.cn/problems/binary-search/) | Easy | 标准双闭区间二分查找（Standard Closed Interval Binary Search） | 08-10 | Pass |
 | 739 | [每日温度](https://leetcode.cn/problems/daily-temperatures/) | Medium | 单调递减栈（Monotonic Decreasing Stack, Cache Friendly） | 07-27 | Pass |
+| 875 | [爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/) | Medium | 值域二分答案 + 判定性单调谓词（Binary Search on Answer） | 08-18 | Pass |
 | 904 | [水果成篮](https://leetcode.cn/problems/fruit-into-baskets/) | Medium | 变长滑动窗口（At Most K Distinct Types, Bounded Map Footprint） | 08-07 | Pass |
 | 1004 | [最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/) | Medium | 变长滑动窗口（Tolerance Budget Mechanism, Zero-Allocation） | 08-06 | Pass |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/) | Easy | 隐式字符串栈（In-Place String Stack Engine, Zero-Allocation） | 07-31 | Pass |
