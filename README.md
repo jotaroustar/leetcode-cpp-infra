@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：32 题
+* **累计完成**：33 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -21,6 +21,7 @@
 | 033 | [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | Medium | 局部有序二分查找（Interval Monotonicity Discrimination） | 08-14 | Pass |
 | 034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | 双重二分边界收敛（Lower/Upper Bound Convergence, O(1) Space） | 08-13 | Pass |
 | 035 | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) | Easy | 二分查找边界收敛（Lower Bound Convergence） | 08-12 | Pass |
+| 069 | [x 的平方根](https://leetcode.cn/problems/sqrtx/) | Easy | 数学值域二分截断（Mathematical Value Range Binary Search） | 08-19 | Pass |
 | 074 | [搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/) | Medium | 虚拟一维展平坐标映射二分（Virtual 1D Flattening & Coordinate Projection） | 08-17 | Pass |
 | 084 | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | Hard | 单调递增栈 + 首尾双哨兵（Monotonic Increasing Stack, Double Sentinels） | 07-29 | Pass |
 | 088 | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | Easy | 逆向双指针（Tail Pointer, Zero-Copy） | 07-19 | Pass |
