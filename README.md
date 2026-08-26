@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：37 题
+* **累计完成**：39 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -40,7 +40,9 @@
 | 438 | [找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/) | Medium | 定长滑动窗口 + 栈上固定频次表（Fixed-Size Window, Zero-Allocation Vectorization） | 08-05 | Pass |
 | 496 | [下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) | Easy | 单调递减栈 + 哈希表预处理（Monotonic Stack, Hash Map Preprocessing） | 07-30 | Pass |
 | 503 | [下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) | Medium | 单调递减栈 + 虚拟双倍数组（Monotonic Decreasing Stack, Virtual Double-Length Array） | 07-28 | Pass |
+| 540 | [有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | Medium | 奇偶索引对齐二分（Parity-Aligned Index Binary Search） | 08-25 | Pass |
 | 567 | [字符串的排列](https://leetcode.cn/problems/permutation-in-string/) | Medium | 定长滑动窗口 + 栈上固定频次表（Fixed-Size Window, Zero-Allocation Vectorization） | 08-09 | Pass |
+| 658 | [找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/) | Medium | 窗口左端点二分收敛（Binary Search for Window Left Bound） | 08-26 | Pass |
 | 704 | [二分查找](https://leetcode.cn/problems/binary-search/) | Easy | 标准双闭区间二分查找（Standard Closed Interval Binary Search） | 08-10 | Pass |
 | 739 | [每日温度](https://leetcode.cn/problems/daily-temperatures/) | Medium | 单调递减栈（Monotonic Decreasing Stack, Cache Friendly） | 07-27 | Pass |
 | 744 | [寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/) | Easy | 环形边界上界收敛（Circular Upper Bound Convergence） | 08-21 | Pass |
