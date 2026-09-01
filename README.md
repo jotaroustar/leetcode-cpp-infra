@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：44 题
+* **累计完成**：45 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -28,6 +28,7 @@
 | 074 | [搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/) | Medium | 虚拟一维展平坐标映射二分（Virtual 1D Flattening & Coordinate Projection） | 08-17 | Pass |
 | 084 | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | Hard | 单调递增栈 + 首尾双哨兵（Monotonic Increasing Stack, Double Sentinels） | 07-29 | Pass |
 | 088 | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | Easy | 逆向双指针（Tail Pointer, Zero-Copy） | 07-19 | Pass |
+| 092 | [反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/) | Medium | 哨兵哑节点 + 头插法单趟穿针引线（Sentinel Dummy Node & In-Place Head Insertion） | 09-01 | Pass |
 | 142 | [环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/) | Medium | 快慢指针相遇 + 同速追赶法（Floyd's Cycle-Finding Algorithm） | 08-31 | Pass |
 | 150 | [逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/) | Medium | 栈操作引擎 + 分支优化（Stack-Based Evaluation Engine, Branch-Friendly Dispatch） | 08-01 | Pass |
 | 153 | [寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | Medium | 右端点基准单调性收敛（Right-Bound Pivot Convergence） | 08-15 | Pass |
