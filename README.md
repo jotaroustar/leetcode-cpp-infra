@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：46 题
+* **累计完成**：47 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -55,6 +55,7 @@
 | 744 | [寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/) | Easy | 环形边界上界收敛（Circular Upper Bound Convergence） | 08-21 | Pass |
 | 852 | [山脉数组的峰顶索引](https://leetcode.cn/problems/peak-index-in-a-mountain-array/) | Medium | 山脉单调性梯度二分（Mountain Peak Gradient Binary Search） | 08-22 | Pass |
 | 875 | [爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/) | Medium | 值域二分答案 + 判定性单调谓词（Binary Search on Answer） | 08-18 | Pass |
+| 876 | [链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/) | Easy | 快慢双指针单趟收敛（Fast-Slow Pointers Midpoint Convergence） | 09-03 | Pass |
 | 904 | [水果成篮](https://leetcode.cn/problems/fruit-into-baskets/) | Medium | 变长滑动窗口（At Most K Distinct Types, Bounded Map Footprint） | 08-07 | Pass |
 | 1004 | [最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/) | Medium | 变长滑动窗口（Tolerance Budget Mechanism, Zero-Allocation） | 08-06 | Pass |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/) | Easy | 隐式字符串栈（In-Place String Stack Engine, Zero-Allocation） | 07-31 | Pass |
