@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：47 题
+* **累计完成**：48 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -40,6 +40,7 @@
 | 209 | [长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/) | Medium | 变长滑动窗口（Aggressive Shrink Loop, Zero-Allocation） | 08-04 | Pass |
 | 225 | [用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/) | Easy | 单队列环形旋转（Single-Queue Ring Rotation, Cache Friendly） | 07-25 | Pass |
 | 232 | [用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/) | Easy | 双栈模拟（Dual-Stack, Amortized O(1) Time） | 07-24 | Pass |
+| 234 | [回文链表](https://leetcode.cn/problems/palindrome-linked-list/) | Easy | 快慢指针找中点 + 后半段就地反转 + 双指针比对与还原（Fast-Slow Midpoint, In-Place Reversal & Dual-Pointer Comparison） | 09-04 | Pass |
 | 239 | [滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/) | Hard | 单调双端队列（Monotonic Deque Engine, Zero-Allocation Output） | 08-02 | Pass |
 | 240 | [搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/) | Medium | 右上角 Z 字形剪枝搜索（Top-Right Boundary Pruning） | 08-24 | Pass |
 | 367 | [有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/) | Easy | 数学值域二分精确匹配（Mathematical Value Range Binary Search） | 08-20 | Pass |
