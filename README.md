@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：48 题
+* **累计完成**：50 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -26,6 +26,7 @@
 | 035 | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) | Easy | 二分查找边界收敛（Lower Bound Convergence） | 08-12 | Pass |
 | 069 | [x 的平方根](https://leetcode.cn/problems/sqrtx/) | Easy | 数学值域二分截断（Mathematical Value Range Binary Search） | 08-19 | Pass |
 | 074 | [搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/) | Medium | 虚拟一维展平坐标映射二分（Virtual 1D Flattening & Coordinate Projection） | 08-17 | Pass |
+| 083 | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/) | Easy | 单指针线性扫描 + 就地内存释放（Linear Scan & In-Place Duplicate Deletion） | 09-06 | Pass |
 | 084 | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | Hard | 单调递增栈 + 首尾双哨兵（Monotonic Increasing Stack, Double Sentinels） | 07-29 | Pass |
 | 088 | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | Easy | 逆向双指针（Tail Pointer, Zero-Copy） | 07-19 | Pass |
 | 092 | [反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/) | Medium | 哨兵哑节点 + 头插法单趟穿针引线（Sentinel Dummy Node & In-Place Head Insertion） | 09-01 | Pass |
@@ -33,6 +34,7 @@
 | 150 | [逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/) | Medium | 栈操作引擎 + 分支优化（Stack-Based Evaluation Engine, Branch-Friendly Dispatch） | 08-01 | Pass |
 | 153 | [寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | Medium | 右端点基准单调性收敛（Right-Bound Pivot Convergence） | 08-15 | Pass |
 | 155 | [最小栈](https://leetcode.cn/problems/min-stack/) | Medium | 状态增强单栈（State-Augmented Single Stack, Cache Friendly） | 07-23 | Pass |
+| 160 | [相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/) | Easy | 双指针消除长度差走法（Dual-Pointer Path Concatenation） | 09-05 | Pass |
 | 162 | [寻找峰值](https://leetcode.cn/problems/find-peak-element/) | Medium | 梯度爬坡单调收敛（Gradient Ascent Binary Search） | 08-16 | Pass |
 | 167 | [两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | Medium | 对撞双指针（Opposite Collision, O(1) Space） | 07-20 | Pass |
 | 203 | [移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/) | Easy | 哨兵哑节点 + 单指针单趟删除（Sentinel Dummy Node & In-Place Deletion） | 09-02 | Pass |
