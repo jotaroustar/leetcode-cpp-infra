@@ -4,7 +4,7 @@
 
 ## 详细资料
 
-* **累计完成**：50 题
+* **累计完成**：51 题
 * **目标**：2027年3月份前完成 200 题，覆盖日本 IT 面试常考专题
 * **编程语言**：C++ (C++17 标准)
 
@@ -26,6 +26,7 @@
 | 035 | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/) | Easy | 二分查找边界收敛（Lower Bound Convergence） | 08-12 | Pass |
 | 069 | [x 的平方根](https://leetcode.cn/problems/sqrtx/) | Easy | 数学值域二分截断（Mathematical Value Range Binary Search） | 08-19 | Pass |
 | 074 | [搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/) | Medium | 虚拟一维展平坐标映射二分（Virtual 1D Flattening & Coordinate Projection） | 08-17 | Pass |
+| 082 | [删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/) | Medium | 哨兵哑节点 + 探测循环批量释放（Sentinel Dummy Node & Batch Duplicate Deletion） | 09-07 | Pass |
 | 083 | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/) | Easy | 单指针线性扫描 + 就地内存释放（Linear Scan & In-Place Duplicate Deletion） | 09-06 | Pass |
 | 084 | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | Hard | 单调递增栈 + 首尾双哨兵（Monotonic Increasing Stack, Double Sentinels） | 07-29 | Pass |
 | 088 | [合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | Easy | 逆向双指针（Tail Pointer, Zero-Copy） | 07-19 | Pass |
